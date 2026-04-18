@@ -1,6 +1,6 @@
 {
   "name": "azure-devkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate Bicep templates and AKS manifests, debug AKS, App Service, and Functions failures, audit Azure RBAC, and scaffold App Service and Azure Functions deployments.",
   "author": {
     "name": "Mohit Kale",
