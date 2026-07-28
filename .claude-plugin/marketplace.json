@@ -1,0 +1,23 @@
+{
+  "name": "azure-devkit",
+  "owner": {
+    "name": "Azure DevKit maintainers"
+  },
+  "plugins": [
+    {
+      "name": "azure-devkit",
+      "source": {
+        "source": "github",
+        "repo": "mohitkale/azure-devkit"
+      },
+      "description": "A safer Azure copilot for Bicep, AKS, App Service, Functions, and RBAC reviews.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Azure DevKit maintainers"
+      },
+      "license": "MIT",
+      "keywords": ["azure", "bicep", "aks", "app-service", "functions", "rbac"],
+      "category": "development"
+    }
+  ]
+}

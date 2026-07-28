@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Azure DevKit Claude Code process</title><desc id="desc">The session hook detects project markers, Claude selects a command or skill, and a post-tool hook follows relevant Azure commands with verification guidance.</desc>
+  <rect width="1200" height="310" fill="#071526"/><style>text{font-family:Arial,sans-serif;fill:#e8f1ff}.h{font-size:23px;font-weight:700}.s{font-size:16px;fill:#b8cae6}.b{fill:#102947;stroke:#50b5ff;stroke-width:2}.a{fill:#17365e;stroke:#89c6ff;stroke-width:2}</style>
+  <text x="52" y="45" class="h">What happens in a Claude Code session</text>
+  <rect x="52" y="100" width="245" height="135" rx="15" class="b"/><text x="103" y="145" class="h">1. Open project</text><text x="78" y="176" class="s">Hook notices Bicep, Functions,</text><text x="78" y="199" class="s">App Service, azd, or pipeline cues.</text>
+  <path d="M310 168h92" stroke="#86bfff" stroke-width="4"/><path d="M390 157l20 11-20 11" fill="#86bfff"/>
+  <rect x="420" y="100" width="320" height="135" rx="15" class="a"/><text x="479" y="145" class="h">2. Choose a workflow</text><text x="449" y="176" class="s">Run a command or let Claude invoke</text><text x="449" y="199" class="s">the fitting skill or specialist agent.</text>
+  <path d="M753 168h92" stroke="#86bfff" stroke-width="4"/><path d="M833 157l20 11-20 11" fill="#86bfff"/>
+  <rect x="863" y="100" width="285" height="135" rx="15" class="b"/><text x="900" y="145" class="h">3. Verify safely</text><text x="889" y="176" class="s">Relevant Azure actions receive</text><text x="889" y="199" class="s">a concise verification reminder.</text>
+</svg>

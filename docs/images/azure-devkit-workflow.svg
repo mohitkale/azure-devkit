@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Azure DevKit workflow</title><desc id="desc">A Claude Code request flows to Azure DevKit skills and agents, then to safe read-only checks, generated files, or approval-gated changes.</desc>
+  <rect width="1200" height="340" fill="#071526"/><style>text{font-family:Arial,sans-serif;fill:#e8f1ff}.label{font-size:23px;font-weight:700}.small{font-size:16px;fill:#b8cae6}.box{fill:#102947;stroke:#50b5ff;stroke-width:2}.safe{fill:#123c38;stroke:#47d7a5;stroke-width:2}.gate{fill:#473417;stroke:#ffc75c;stroke-width:2}</style>
+  <text x="60" y="48" class="label">Azure DevKit: from Azure question to safe next step</text>
+  <rect x="60" y="105" width="210" height="135" rx="16" class="box"/><text x="105" y="160" class="label">Claude Code</text><text x="84" y="193" class="small">A task, incident, or review</text>
+  <path d="M280 172h92" stroke="#86bfff" stroke-width="4"/><path d="M360 161l20 11-20 11" fill="#86bfff"/>
+  <rect x="390" y="78" width="300" height="190" rx="16" class="box"/><text x="449" y="123" class="label">Skills and agents</text><text x="425" y="160" class="small">Bicep · AKS · App Service</text><text x="425" y="187" class="small">Functions · RBAC · diagnostics</text><text x="425" y="221" class="small">Session hook detects project cues</text>
+  <path d="M700 172h92" stroke="#86bfff" stroke-width="4"/><path d="M780 161l20 11-20 11" fill="#86bfff"/>
+  <rect x="810" y="55" width="330" height="95" rx="16" class="safe"/><text x="875" y="98" class="label">Read-only path</text><text x="845" y="126" class="small">Inspect, explain, validate, what-if</text>
+  <rect x="810" y="190" width="330" height="95" rx="16" class="gate"/><text x="854" y="233" class="label">Approval-gated path</text><text x="845" y="261" class="small">Deploy, change access, local credentials</text>
+</svg>
